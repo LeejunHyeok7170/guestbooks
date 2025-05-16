@@ -23,9 +23,9 @@ services:
     ports:
       - "8080:8080"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/postgres
-      SPRING_DATASOURCE_USERNAME: user
-      SPRING_DATASOURCE_PASSWORD: 1234
+      SPRING_DATASOURCE_URL: jdbc:postgresql://filemanagement-db.cri22gkiskwr.ap-northeast-2.rds.amazonaws.com:5432/file-management
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgre0319
       SPRING_DATASOURCE_DRIVER-CLASS-NAME: org.postgresql.Driver
     volumes:
       - ./uploads:/tmp/uploads

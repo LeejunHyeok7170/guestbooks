@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: user
-    password: 1234
+    url: jdbc:postgresql://filemanagement-db.cri22gkiskwr.ap-northeast-2.rds.amazonaws.com:5432/file-management
+    username: postgres
+    password: postgre
     driver-class-name: org.postgresql.Driver
 
   jpa:
